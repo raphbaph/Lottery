@@ -6,12 +6,12 @@ const url = process.env.RPC_URL
 
 module.exports = {
   networks: {
-    test: {
+   /* test: {
       provider: () => new HDWalletProvider({
         mnemonic: mnemonicPhrase,
         providerOrUrl: "http://localhost:8545"}),
       network_id: '*',
-    },
+    },*/
     cldev: {
       host: '127.0.0.1',
       port: 8545,
