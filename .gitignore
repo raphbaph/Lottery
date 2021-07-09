@@ -1,0 +1,5 @@
+build
+old_tests
+scripts
+*.json
+node_modules
